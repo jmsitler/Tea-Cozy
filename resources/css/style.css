@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+  color: seashell;
+  margin: 0 auto;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+
+
+
+/* Header/Nav */
+
+header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+header img {
+  display: flex;
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+  padding-right: 10px;
+}
+
+nav span a {
+  display: inline;
+  color: seashell;
+  text-decoration: underline;
+  text-align: right;
+  padding-left: 20px;
+}
+
+
+
+/* Hero Image */
+
+.hero {
+  background-image: url();
+}
