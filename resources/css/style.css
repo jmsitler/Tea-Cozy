@@ -46,5 +46,24 @@ nav span a {
 /* Hero Image */
 
 .hero {
-  background-image: url();
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+
+.hero-image {
+  height: 700px;
+  width: 1200px;
+  background-image: url("../images/img-mission-background.jpg");
+  align-items: center;
+  display: flex;
+}
+
+.hero-text {
+  background: black;
+  opacity: 0.9;
+  width: 100%;
 }
