@@ -19,6 +19,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  background: black;
+  z-index: 1;
 }
 
 header img {
@@ -27,32 +29,30 @@ header img {
   padding-left: 10px;
 }
 
-nav {
+header nav {
   text-align: right;
   flex-grow: 1;
-  padding-right: 10px;
+  padding-right: 40px;
 }
 
 nav span a {
   display: inline;
   color: seashell;
-  text-decoration: underline;
   text-align: right;
-  padding-left: 20px;
+  padding-right: 10px;
 }
 
 
 
-/* Hero Image */
+/* Mission/Hero */
 
-.hero {
+#mission {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
   justify-content: center;
   padding-top: 70px;
 }
-
 
 .hero-image {
   height: 700px;
@@ -64,6 +64,48 @@ nav span a {
 
 .hero-text {
   background: black;
-  opacity: 0.9;
   width: 100%;
+}
+
+.hero-text h2 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.hero-text h4 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+
+/* Featured Tea */
+
+#featured-tea {
+  height: 700px;
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  padding: 10px;
+  display: inline-block;
+}
+
+.item img {
+  height: 200px;
+  width: 300px
+  margin: 0 10px;
+}
+
+.item span {
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
 }
