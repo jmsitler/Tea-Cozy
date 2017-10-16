@@ -32,7 +32,7 @@ header img {
 header nav {
   text-align: right;
   flex-grow: 1;
-  padding-right: 40px;
+  padding-right: 10px;
 }
 
 nav span a {
@@ -44,7 +44,7 @@ nav span a {
 
 
 
-/* Mission/Hero */
+/* Mission and Hero */
 
 #mission {
   display: flex;
@@ -84,7 +84,7 @@ nav span a {
   height: 700px;
   width: 1000px;
   margin: 0 auto;
-  padding-top: 70px;
+  padding: 70px 0px;
 }
 
 .product {
@@ -108,4 +108,56 @@ nav span a {
   padding: 10px;
   font-weight: bold;
   text-align: center;
+}
+
+
+/* Locations */
+
+.locations {
+  background-image: url("../images/img-locations-background.jpg");
+  padding-top: 70px;
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+}
+
+.locations h2 {
+  margin-bottom: 15px;
+}
+
+.locations p {
+  display: block;
+  padding: 5px 0;
+}
+
+.shops {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  background: black;
+  flex-basis: 300px;
+  margin: 0 20px;
+  align-content: center;
+}
+
+
+/* Footer */
+
+.contact{
+  height: 200px;
+}
+
+footer {
+  margin: 10px 0;
+  text-align: left;
+  padding-left: 20px;
+  align-content: center;
+  display: flex;
 }
